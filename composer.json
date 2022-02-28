@@ -58,7 +58,8 @@
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/",
             "Uasoft\\Badaso\\": "package/badaso/core/src/",
-            "Uasoft\\Badaso\\Theme\\LMSTheme\\": "package/badaso/badaso-lms-theme/src/"
+            "Uasoft\\Badaso\\Theme\\LMSTheme\\": "package/badaso/badaso-lms-theme/src/",
+            "Uasoft\\Badaso\\Module\\LMS\\": "package/badaso/lms-module/src/"
         }
     },
     "autoload-dev": {

@@ -1,29 +1,26 @@
 <?php
-
 return [
-    // badaso default table
-    env('BADASO_TABLE_PREFIX', 'badaso_').'data_rows',
-    env('BADASO_TABLE_PREFIX', 'badaso_').'data_types',
-    env('BADASO_TABLE_PREFIX', 'badaso_').'menus',
-    env('BADASO_TABLE_PREFIX', 'badaso_').'menu_items',
-    env('BADASO_TABLE_PREFIX', 'badaso_').'users',
-    env('BADASO_TABLE_PREFIX', 'badaso_').'roles',
-    env('BADASO_TABLE_PREFIX', 'badaso_').'permissions',
-    env('BADASO_TABLE_PREFIX', 'badaso_').'configurations',
-    env('BADASO_TABLE_PREFIX', 'badaso_').'role_permissions',
-    env('BADASO_TABLE_PREFIX', 'badaso_').'user_roles',
-    env('BADASO_TABLE_PREFIX', 'badaso_').'user_verifications',
-    env('BADASO_TABLE_PREFIX', 'badaso_').'email_resets',
-    env('BADASO_TABLE_PREFIX', 'badaso_').'notifications',
-    env('BADASO_TABLE_PREFIX', 'badaso_').'firebase_cloud_messages',
-    env('BADASO_TABLE_PREFIX', 'badaso_').'password_resets',
-    env('BADASO_TABLE_PREFIX', 'badaso_').'personal_access_tokens',
-
-    // laravel default table
+    'badaso_data_rows',
+    'badaso_data_types',
+    'badaso_menus',
+    'badaso_menu_items',
+    'badaso_users',
+    'badaso_roles',
+    'badaso_permissions',
+    'badaso_configurations',
+    'badaso_role_permissions',
+    'badaso_user_roles',
+    'badaso_user_verifications',
+    'badaso_email_resets',
+    'badaso_notifications',
+    'badaso_firebase_cloud_messages',
+    'badaso_password_resets',
+    'badaso_personal_access_tokens',
     'migrations',
     'activity_log',
     'failed_jobs',
     'personal_access_tokens',
     'users',
     'password_resets',
-];
+    'lms_users',
+] ;
