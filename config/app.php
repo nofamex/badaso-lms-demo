@@ -166,6 +166,7 @@ return [
          * Package Service Providers...
          */
         "Uasoft\\Badaso\\Providers\\BadasoServiceProvider",
+        "Uasoft\\Badaso\\Module\\LMS\\Providers\\BadasoLMSModuleProvider",
 
         /*
          * Application Service Providers...
