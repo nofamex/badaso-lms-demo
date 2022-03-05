@@ -12,7 +12,7 @@
             <directory suffix="Test.php">./tests/Feature</directory>
         </testsuite>
         <testsuite name="Badaso LMS Module">
-            <directory suffix=".php">./package/badaso/lms-module/tests/</directory>
+            <directory suffix="Test.php">./package/badaso/lms-module/tests/</directory>
         </testsuite>
     </testsuites>
     <coverage processUncoveredFiles="true">
