@@ -26,7 +26,6 @@
         "laravel/ui": "^3.3",
         "league/flysystem-aws-s3-v3": "^1.0.28",
         "nao-pon/flysystem-google-drive": "^1.1.13",
-        "orchestra/testbench": "^6",
         "predis/predis": "^1.1",
         "spatie/flysystem-dropbox": "^1.2.2",
         "spatie/laravel-activitylog": "^3.17",
