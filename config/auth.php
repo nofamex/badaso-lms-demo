@@ -1,7 +1,7 @@
 <?php
 return [
     'defaults' => [
-        'guard' => 'web',
+        'guard' => 'badaso_guard',
         'passwords' => 'users',
     ],
     'guards' => [
@@ -14,9 +14,17 @@ return [
             'provider' => 'users',
             'hash' => false,
         ],
+        'badaso_guard' => [
+            'driver' => 'jwt',
+            'provider' => 'badaso_users',
+        ],
     ],
     'providers' => [
         'users' => [
+            'driver' => 'eloquent',
+            'model' => 'Uasoft\\Badaso\\Models\\User',
+        ],
+        'badaso_users' => [
             'driver' => 'eloquent',
             'model' => 'Uasoft\\Badaso\\Models\\User',
         ],

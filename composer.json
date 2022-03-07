@@ -10,7 +10,7 @@
     "require": {
         "php": "^7.3|^8.0",
         "arcanedev/log-viewer": "^8.1",
-        "badaso/core": "^2.4",
+        "badaso/core": "^2.4.7",
         "darkaonline/l5-swagger": "^8.0",
         "doctrine/dbal": "^2.12",
         "fideloper/proxy": "^4.4",
