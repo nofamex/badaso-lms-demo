@@ -22,6 +22,8 @@ class BadasoSeeder extends Seeder
         $this->call(FixedMenuItemSeeder::class);
         $this->call(ConfigurationsSeeder::class);
 
+        // TODO: Remove this line before deploying to production
+        // to avoid the creation of admin admin user
         $this->call(BadasoManualGenerateSeeder::class);
         $this->call(BadasoLMSModuleSeeder::class);
     }
