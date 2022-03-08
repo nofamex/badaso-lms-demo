@@ -11,6 +11,7 @@
         "php": "^7.3|^8.0",
         "arcanedev/log-viewer": "^8.1",
         "badaso/core": "^2.4.7",
+        "bensampo/laravel-enum": "^4.2",
         "darkaonline/l5-swagger": "^8.0",
         "doctrine/dbal": "^2.12",
         "fideloper/proxy": "^4.4",
@@ -61,7 +62,8 @@
             "Uasoft\\Badaso\\": "package/badaso/core/src/",
             "Uasoft\\Badaso\\Theme\\LMSTheme\\": "package/badaso/badaso-lms-theme/src/",
             "Uasoft\\Badaso\\Module\\LMSModule\\": "package/badaso/lms-module/src/",
-            "Uasoft\\Badaso\\Module\\LMSModule\\Database\\Factories\\": "package/badaso/lms-module/src/Factories/"
+            "Uasoft\\Badaso\\Module\\LMSModule\\Factories\\": "package/badaso/lms-module/src/Factories/",
+            "Uasoft\\Badaso\\Module\\LMSModule\\Seeders\\": "package/badaso/lms-module/src/Seeders/"
         }
     },
     "autoload-dev": {

@@ -13,5 +13,6 @@ class BadasoManualGenerateSeeder extends Seeder
 
     public function run()
     {
+        $this->seed(BadasoUsersTableSeeder::class);
     }
 }
