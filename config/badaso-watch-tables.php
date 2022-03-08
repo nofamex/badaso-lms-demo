@@ -1,5 +1,6 @@
 <?php
 
 return [
-    // table names for generating CRUD_DATA seeders.
+    'badaso_course_user',
+    'badaso_courses',
 ];

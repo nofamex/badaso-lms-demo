@@ -17,7 +17,7 @@
     </testsuites>
     <coverage processUncoveredFiles="true">
         <include>
-            <directory suffix=".php">./app</directory>
+            <directory suffix=".php">./package/badaso/lms-module/src/</directory>
         </include>
     </coverage>
     <php>

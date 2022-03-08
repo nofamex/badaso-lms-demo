@@ -59,7 +59,6 @@
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/",
-            "Uasoft\\Badaso\\": "package/badaso/core/src/",
             "Uasoft\\Badaso\\Theme\\LMSTheme\\": "package/badaso/badaso-lms-theme/src/",
             "Uasoft\\Badaso\\Module\\LMSModule\\": "package/badaso/lms-module/src/",
             "Uasoft\\Badaso\\Module\\LMSModule\\Factories\\": "package/badaso/lms-module/src/Factories/",
