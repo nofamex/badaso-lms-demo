@@ -2,12 +2,12 @@
     "private": true,
     "scripts": {
         "dev": "npm run development",
-        "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "development": "cross-env NODE_ENV=development node_modules\/webpack\/bin\/webpack.js --progress --config=node_modules\/laravel-mix\/setup\/webpack.config.js",
         "watch": "npm run development -- --watch",
         "watch-poll": "npm run watch -- --watch-poll",
-        "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --disable-host-check --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "hot": "cross-env NODE_ENV=development node_modules\/webpack-dev-server\/bin\/webpack-dev-server.js --inline --hot --disable-host-check --config=node_modules\/laravel-mix\/setup\/webpack.config.js",
         "prod": "npm run production",
-        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --config=node_modules/laravel-mix/setup/webpack.config.js"
+        "production": "cross-env NODE_ENV=production node_modules\/webpack\/bin\/webpack.js --no-progress --config=node_modules\/laravel-mix\/setup\/webpack.config.js"
     },
     "devDependencies": {
         "axios": "^0.18",
@@ -20,10 +20,10 @@
         "vuetifyjs-mix-extension": "0.0.20"
     },
     "dependencies": {
-        "@inertiajs/inertia": "^0.11.0",
-        "@inertiajs/inertia-vue": "^0.8.0",
-        "@johmun/vue-tags-input": "^2.1.0",
-        "@tinymce/tinymce-vue": "^3",
+        "@inertiajs\/inertia": "^0.11.0",
+        "@inertiajs\/inertia-vue": "^0.8.0",
+        "@johmun\/vue-tags-input": "^2.1.0",
+        "@tinymce\/tinymce-vue": "^3",
         "autoprefixer": "^10.4.2",
         "body-scroll-lock": "^4.0.0-beta.0",
         "chart.js": "^2.8.0",
@@ -38,7 +38,7 @@
         "popper.js": "^1.12",
         "prismjs": "^1.17.1",
         "resolve-url-loader": "^4.0.0",
-        "sass": "~1.32.11",
+        "sass": "^1.32.11",
         "sass-loader": "^11.0.1",
         "tailwindcss": "^3.0.23",
         "tinymce": "^5.7.1",
